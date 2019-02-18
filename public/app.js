@@ -15,7 +15,7 @@ fs.stat((camino, error)=>{
     fs.readFile(camino, (error, contenido)=>{
        if(error){
          respuesta.writeHead(500, {'Content-Type':'text/plain'});
-         respuesta.write('Error interno');
+         respuesta.write('Error interno. No puedes continuar');
          respuesta.end();
        }
       else{
