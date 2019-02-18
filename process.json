@@ -1,0 +1,10 @@
+{apps:[{
+        name:"Server",
+        script: "./app.js",
+        instances:8,
+        env:{
+                "PORT":"3000"
+        }
+        }]
+}
+

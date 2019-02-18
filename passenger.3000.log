@@ -1,0 +1,92 @@
+2019/02/13 17:25:32 [emerg] 17410#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:25:32 [emerg] 17410#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:25:32 [emerg] 17410#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:25:32 [emerg] 17410#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:25:32 [emerg] 17410#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:25:32 [emerg] 17410#0: still could not bind()
+[ N 2019-02-13 17:25:55.7650 17444/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:25:55.7863 17447/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:25:55.7864 17447/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:25:55.7915 17447/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 17447
+App 17478 output: Esta corriendo en el puerto 3000
+[ N 2019-02-13 17:25:59.0489 17447/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 17:26:42.2202 17447/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:26:42.2203 17447/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:26:42.2203 17447/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17478, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:26:42.2204 17447/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:26:42.2204 17447/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:26:42.2204 17447/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:26:42.2205 17447/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:26:42.2212 17447/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17478, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:26:43.2118 17447/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
+[ N 2019-02-13 17:29:47.7251 17613/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:29:47.7446 17616/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:29:47.7447 17616/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:29:47.7493 17616/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 17616
+App 17653 output: Esta corriendo en el puerto 3000
+App 17701 output: Esta corriendo en el puerto 3000
+App 17749 output: Esta corriendo en el puerto 3000
+[ N 2019-02-13 17:29:51.0006 17616/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 17:31:06.7390 17616/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:31:06.7391 17616/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:31:06.7391 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17653, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:06.7392 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17701, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:06.7392 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17749, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:06.7392 17616/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:31:06.7392 17616/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:31:06.7393 17616/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:31:06.7393 17616/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:31:06.7394 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17653, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:06.7394 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17701, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:06.7394 17616/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17749, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:31:07.7329 17616/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
+[ N 2019-02-13 17:44:18.9203 18151/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:44:18.9401 18154/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:44:18.9403 18154/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:44:18.9452 18154/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 18154
+App 18185 output: Esta corriendo en el puerto 3000
+[ N 2019-02-13 17:44:22.1962 18154/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 17:44:34.4597 18154/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:44:34.4598 18154/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:44:34.4598 18154/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18185, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:44:34.4599 18154/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:44:34.4599 18154/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:44:34.4599 18154/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:44:34.4599 18154/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:44:34.4608 18154/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18185, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:44:35.4545 18154/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
+[ N 2019-02-13 17:49:21.4658 18412/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:49:21.4850 18415/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:49:21.4851 18415/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:49:21.4896 18415/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 18415
+App 18446 output: Esta corriendo en el puerto 3000
+[ N 2019-02-13 17:49:24.7348 18415/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 17:49:31.2148 18415/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:49:31.2149 18415/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:49:31.2149 18415/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18446, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:49:31.2150 18415/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:49:31.2150 18415/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:49:31.2152 18415/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:49:31.2152 18415/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:49:31.2165 18415/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18446, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:49:32.2073 18415/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
+[ N 2019-02-13 17:50:07.1010 18616/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:50:07.1209 18619/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:50:07.1210 18619/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:50:07.1256 18619/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 18619
+App 18650 output: Esta corriendo en el puerto 3000
+[ N 2019-02-13 17:50:10.3551 18619/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 17:51:59.8157 18619/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:51:59.8157 18619/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:51:59.8158 18619/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18650, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:51:59.8158 18619/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:51:59.8158 18619/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:51:59.8159 18619/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:51:59.8159 18619/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:51:59.8162 18619/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 18650, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:52:00.8142 18619/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
